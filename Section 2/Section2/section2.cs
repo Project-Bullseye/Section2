@@ -14,7 +14,7 @@ namespace Section2
         {
             FolderCreateCheck();
         }
-
+        //test comment
         //checking if the folder and file and already there and if not creating them
         public static void FolderCreateCheck()
         {
