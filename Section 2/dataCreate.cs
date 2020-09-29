@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.Threading;
 using System.IO;
 
-namespace Section2
+namespace Section_2
 {
-    class Section2
+    class dataCreate
     {
         //checking if the folder and file and already there and if not creating them
         public static void FolderCreateCheck()
@@ -22,9 +22,10 @@ namespace Section2
                 {
                     //puts text in it
                     Byte[] info =
-                   new UTF8Encoding(true).GetBytes("This is where we will keep the score");
+                   new UTF8Encoding(true).GetBytes("This is where we will keep the score \n");
 
                     fs.Write(info, 0, info.Length);
+                    fs.Close();
                 }
             }
             else
@@ -32,7 +33,8 @@ namespace Section2
                 //writes in file for test
                 using (StreamWriter sw = new StreamWriter(path))
                 {
-                    sw.WriteLine("This is where we will keep the score 2");
+                    sw.WriteLine("This is where we will keep the score 2 \n");
+                    sw.Close();
                 }
             }
         }

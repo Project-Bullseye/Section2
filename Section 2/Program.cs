@@ -16,6 +16,7 @@ namespace Section_2
 
         public static void test()
         {
+            dataCreate.FolderCreateCheck();
             targetHit.ScoreKeep();
         }
 

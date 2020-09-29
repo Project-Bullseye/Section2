@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,12 +13,16 @@ namespace Section_2
         //this will be for saving scores and printing them
         public static void ScoreKeep()
         {
-            int temp = 1000;
+            string path = "C:\\Users\\Public\\Documents\\myData.txt";
+            int temp = 100;
+
+
             if (temp < 1000)
             {
                 Console.WriteLine($"You won in {temp} seconds!!!!!!");
                 Process.Start("Chrome.exe", "https://www.youtube.com/watch?v=mnpjpdhUNjY");
                 Console.ReadLine();
+
             } 
             else
             {
