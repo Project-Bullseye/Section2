@@ -5,18 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 
-namespace Section2
+namespace Section_2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Check();
+            test();
         }
 
-        static void Check()
+        public static void test()
         {
-            Section2.ScoreKeeper();
+            targetHit.ScoreKeep();
         }
+
     }
 }

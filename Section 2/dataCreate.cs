@@ -10,11 +10,6 @@ namespace Section2
 {
     class Section2
     {
-        public static void ScoreKeeper()
-        {
-            FolderCreateCheck();
-        }
-        
         //checking if the folder and file and already there and if not creating them
         public static void FolderCreateCheck()
         {
