@@ -13,7 +13,6 @@ namespace Section_2
         //this will be for saving scores and printing them
         public static void ScoreKeep()
         {
-            string path = "C:\\Users\\Public\\Documents\\myData.txt";
             int temp = 100;
 
 
